@@ -61,9 +61,9 @@ class Lienzo(activity: MainActivity):View(activity) {
     fun moverNubes(lx:Float,ly:Float){
         var auxx=0f
         var auxy=0f
-        maxX+=lx*2
+        maxX+=lx*3
         println("x-----------------------------"+maxX)
-        maxY+=ly*2
+        maxY+=ly*3
         println("y-----------------------------"+maxY)
         if (maxX<180f&&maxX>-180f){
             xs[0] += lx
